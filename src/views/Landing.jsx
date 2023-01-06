@@ -28,7 +28,13 @@ export default function Landing() {
           </div>
 
           <div className={style.wrap}>
-            <h1 className={style.title}>Your only place for news</h1>
+            <div className={style.allIzq}>
+              <div className={style.newFeature}>NEW FEATURE</div>
+              <div className={style.izq}>
+                <h1 className={style.title}>Your only place for news</h1>
+                <button className={style.low_button}>Get Started</button>
+              </div>
+            </div>
             <Spline
               className={style.house}
               scene="https://prod.spline.design/dwINpOqs4Xmz6OJS/scene.splinecode"
