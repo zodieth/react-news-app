@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap");
+
+@font-face {
+  font-family: "Circular";
+  src: url(../assets//fonts/circular-std-medium-500.ttf);
+}
+
+.house {
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.allNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contenedor {
+  width: 100%;
+  background-color: rgb(230, 152, 168);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  font-family: "Circular", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #03071e;
+  height: 50px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  margin-right: 3rem;
+}
+
+.container {
+  background-color: rgb(230, 152, 168);
+}
+
+.title {
+  font-family: "Circular", sans-serif;
+  font-weight: 600;
+  font-size: 6rem;
+  margin: 2rem;
+}
+
+.logo {
+  height: 40px;
+  margin-left: 3rem;
+}
+
+.nav {
+  margin-top: 2rem;
+  height: 80px;
+  /* flex-direction: row; */
+  display: flex;
+  align-items: center;
+}
+
+.get {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ul {
+  display: flex;
+}
+
+.li {
+  font-family: "Circular", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin: 2rem;
+  list-style: none;
+  color: #2f2d2e;
+}
+.container_nav {
+  /* display: flex; */
+}
+
+.li:hover {
+  color: black;
+}
+
+.wrap {
+  /* margin: 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
